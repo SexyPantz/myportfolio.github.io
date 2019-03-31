@@ -19,7 +19,18 @@ nav{
   font-family: "Arial", Arial, sans-serif;
   /* font-family:freight-sans-pro;src:url(https://use.typekit.net/af/ba2099/000000000000000000010b58/27/l?subset_id=2&fvd=n3&v=3);  */
 }
+a{
+  text-decoration: none;
+}
 
+a:visited{
+  color: black;
+  text-decoration: none;
+}
+
+a:hover{
+  font-weight: bold;
+}
 #main-side-bar{
   display: flex;
   padding: 0 0 0 0.5em;
@@ -30,6 +41,10 @@ nav{
   float: left;
   color:BLACK;
   font-family: "Arial", Arial, sans-serif;
+}
+
+#main-side-bar a{
+  margin: 0 0 0.5em 0;
 }
 .navlogos{
   float:right;
@@ -44,17 +59,17 @@ footer{
     margin: 0 1em 1em 10em;
     grid-row-gap: 1em;
     grid-column-gap: 1em;
-    grid-template-columns: 30vh 30vh;
+    grid-template-columns: 25vw 25vw 25vw;
     /* grid-template-rows:  */
   }
 
-.project-grid img{
-  height: 30vh;
-  width: 30vh;
+.project-grid img, iframe{
+  height: 25vw;
+  width: 100%;
   object-fit: cover;
 }
 
-.project-grid iframe{
+/* .project-grid iframe{
   height: 10vh;
   width: 10vw;
-}
+} */
