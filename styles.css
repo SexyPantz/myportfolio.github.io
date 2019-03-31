@@ -12,16 +12,21 @@ nav{
   width: 100%;
 }
 #page-header{
-  padding:  20px;
+  /* padding: top right bottom left*/
+  padding: 0 0 0 1em ;
   color:BLACK;
+  font-size: 3em;
   font-family: "Arial", Arial, sans-serif;
   /* font-family:freight-sans-pro;src:url(https://use.typekit.net/af/ba2099/000000000000000000010b58/27/l?subset_id=2&fvd=n3&v=3);  */
 }
 
 #main-side-bar{
   display: flex;
+  padding: 0 0 0 0.5em;
   flex-direction: column;
+  margin: 0 0 0 0;
   position: absolute;
+  font-size: 1em;
   float: left;
   color:BLACK;
   font-family: "Arial", Arial, sans-serif;
@@ -35,17 +40,18 @@ footer{
 }
 
 .project-grid {
-  display: grid;
-  margin: 100px;
-  grid-row-gap: 1em;
-  grid-column-gap: 1em;
-  grid-template-columns: auto auto;
-  grid-template-rows: auto;
-}
+    display: grid;
+    margin: 0 1em 1em 10em;
+    grid-row-gap: 1em;
+    grid-column-gap: 1em;
+    grid-template-columns: 30vh 30vh;
+    /* grid-template-rows:  */
+  }
 
 .project-grid img{
-  height: 10vh;
-  width: 10vw;
+  height: 30vh;
+  width: 30vh;
+  object-fit: cover;
 }
 
 .project-grid iframe{
