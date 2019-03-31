@@ -1,6 +1,6 @@
 body{
   font-size: 1em;
-  background-color: #444444;
+  background-color: #FFF4EA;
 }
 nav img{
   border-radius: 100%;
@@ -18,6 +18,14 @@ nav{
   /* font-family:freight-sans-pro;src:url(https://use.typekit.net/af/ba2099/000000000000000000010b58/27/l?subset_id=2&fvd=n3&v=3);  */
 }
 
+#main-side-bar{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  float: left;
+  color:BLACK;
+  font-family: "Arial", Arial, sans-serif;
+}
 .navlogos{
   float:right;
 }
