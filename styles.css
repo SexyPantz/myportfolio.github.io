@@ -1,6 +1,6 @@
 body{
   font-size: 1em;
-  background-color: #FFF4EA;
+  background-color: #FFFFFF;
 }
 nav img{
   border-radius: 100%;
@@ -21,6 +21,7 @@ nav{
 }
 a{
   text-decoration: none;
+  color: black;
 }
 
 a:visited{
@@ -67,6 +68,14 @@ footer{
   height: 25vw;
   width: 100%;
   object-fit: cover;
+}
+#page-footer{
+  margin: 1em 1em 1em 1em;
+  width: 100%;
+  font-size: 0.7em;
+  float: left;
+  color:BLACK;
+  font-family: "Arial", Arial, sans-serif;
 }
 
 /* .project-grid iframe{
