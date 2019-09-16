@@ -16,7 +16,10 @@ nav{
   padding: 0 0 0 1em ;
   color:BLACK;
   font-size: 3em;
-  font-family: "Arial", Arial, sans-serif;
+  font-family: freight-sans-pro, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+    /*  font-family: "Arial", Arial, sans-serif;*/
   /* font-family:freight-sans-pro;src:url(https://use.typekit.net/af/ba2099/000000000000000000010b58/27/l?subset_id=2&fvd=n3&v=3);  */
 }
 a{
@@ -41,7 +44,9 @@ a:hover{
   font-size: 1em;
   float: left;
   color:BLACK;
-  font-family: "Arial", Arial, sans-serif;
+  font-family: freight-sans-pro, sans-serif;
+  font-style: normal;
+  font-weight: 300;
 }
 
 #main-side-bar a{
@@ -75,7 +80,9 @@ footer{
   font-size: 0.7em;
   float: left;
   color:BLACK;
-  font-family: "Arial", Arial, sans-serif;
+  font-family: freight-sans-pro, sans-serif;
+  font-style: normal;
+  font-weight: 300;
 }
 
 /* .project-grid iframe{
