@@ -1,10 +1,8 @@
 body{
   font-size: 1em;
-<<<<<<< HEAD
+
   background-color: white;
-=======
-  background-color: #fcfcfc;
->>>>>>> 58b3cd8b4856b091e7be03e8a55b0b4d1fd9587a
+
 }
 nav img{
   border-radius: 100%;
@@ -90,7 +88,7 @@ footer{
   width: 100%;
   object-fit: cover;
 }
-<<<<<<< HEAD
+
 h2{
 padding: 0 0 0 1em ;
 color:BLACK;
