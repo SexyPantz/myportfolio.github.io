@@ -1,13 +1,20 @@
 body{
   font-size: 1em;
+<<<<<<< HEAD
   background-color: white;
+=======
+  background-color: #fcfcfc;
+>>>>>>> 58b3cd8b4856b091e7be03e8a55b0b4d1fd9587a
 }
 nav img{
   border-radius: 100%;
   width: 5em;
 
 }
-
+/* my adobe font:
+  freight
+ https://fonts.adobe.com/fonts/freight-sans#fonts-section
+ */
 nav{
   width: 100%;
   position: fixed;
@@ -25,11 +32,15 @@ header{
   padding: 0 0 0 1em ;
   color:BLACK;
   font-size: 3em;
-  font-family: "Arial", Arial, sans-serif;
+  font-family: freight-sans-pro, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+    /*  font-family: "Arial", Arial, sans-serif;*/
   /* font-family:freight-sans-pro;src:url(https://use.typekit.net/af/ba2099/000000000000000000010b58/27/l?subset_id=2&fvd=n3&v=3);  */
 }
 #navbar a{
   text-decoration: none;
+  color: black;
 }
 
 #navbar a:visited{
@@ -49,7 +60,9 @@ header{
   font-size: 1em;
   float: left;
   color:BLACK;
-  font-family: "Arial", Arial, sans-serif;
+  font-family: freight-sans-pro, sans-serif;
+  font-style: normal;
+  font-weight: 300;
 }
 
 #navbar a{
@@ -77,6 +90,7 @@ footer{
   width: 100%;
   object-fit: cover;
 }
+<<<<<<< HEAD
 h2{
 padding: 0 0 0 1em ;
 color:BLACK;
@@ -91,6 +105,18 @@ transition: transform 0.3s ease-out;
 
 display: flex;
 justify-content: center;
+=======
+#page-footer{
+  margin: 1em 1em 1em 1em;
+  width: 100%;
+  font-size: 0.7em;
+  float: left;
+  color:BLACK;
+  font-family: freight-sans-pro, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+>>>>>>> 58b3cd8b4856b091e7be03e8a55b0b4d1fd9587a
 
 }
 @media {
