@@ -1,8 +1,7 @@
 body{
   font-size: 1em;
-
-  background-color: white;
-
+  background-color: pearl;
+  margin: 0;
 }
 nav img{
   border-radius: 100%;
@@ -16,29 +15,17 @@ nav img{
 nav{
   width: 100%;
   position: fixed;
-  min-width: 10%;
   top: 0px;
-  left: 0px;
-  max-width: 25%;
-  height: 100%;
+  background-color: white;
+  box-shadow: 0px 0px 10px black;
+  margin: 0px;
 }
 
-.nav{
-}
-header{
-  /* padding: top right bottom left*/
-  padding: 0 0 0 1em ;
-  color:BLACK;
-  font-size: 3em;
-  font-family: freight-sans-pro, sans-serif;
-  font-style: normal;
-  font-weight: 300;
-    /*  font-family: "Arial", Arial, sans-serif;*/
-  /* font-family:freight-sans-pro;src:url(https://use.typekit.net/af/ba2099/000000000000000000010b58/27/l?subset_id=2&fvd=n3&v=3);  */
-}
-#navbar a{
+nav div a{
   text-decoration: none;
   color: black;
+  padding: 10px;
+  
 }
 
 #navbar a:visited{
@@ -50,25 +37,40 @@ header{
   font-weight: bold;
 }
 #navbar{
-  display: flex;
-  padding: 0 0 0 0.5em;
-  flex-direction: column;
-  margin: 0 0 0 0;
-  position: absolute;
+ 
   font-size: 1em;
-  float: left;
   color:BLACK;
   font-family: freight-sans-pro, sans-serif;
   font-style: normal;
   font-weight: 300;
 }
 
-#navbar a{
-  margin: 0 0 0.5em 0;
-}
-.navlogos{
+.navlogos{ 
+  font-size: 2em;
   float: right;
+  padding: 10px 50px 10px 0px;
+  }
+.navlinks{
+  float: left;
+  padding: 20px 0px 18px 25px;
+  
 }
+
+#welcome-section{
+  /* padding: top right bottom left*/
+  padding: 0 0 0 1em ;
+  color:BLACK;
+  text-align: center;
+  font-size: 3em;
+  font-family: freight-sans-pro, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  height: 100vh
+}
+#welcome-section p{
+font-size: 10;
+}
+
 
 footer{
   width: 100px;
