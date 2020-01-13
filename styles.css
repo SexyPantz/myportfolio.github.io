@@ -103,7 +103,7 @@ transition: transform 0.3s ease-out;
 
 display: flex;
 justify-content: center;
-=======
+
 #page-footer{
   margin: 1em 1em 1em 1em;
   width: 100%;
@@ -114,7 +114,7 @@ justify-content: center;
   font-style: normal;
   font-weight: 300;
 }
->>>>>>> 58b3cd8b4856b091e7be03e8a55b0b4d1fd9587a
+
 
 }
 @media {
